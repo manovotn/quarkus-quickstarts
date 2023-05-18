@@ -16,6 +16,9 @@ public class MyComponent {
     @Simple
     Bravo bravo;
 
+    @Inject
+    B b;
+
     @ConfigProperty(name = "foo")
     String foo;
 
